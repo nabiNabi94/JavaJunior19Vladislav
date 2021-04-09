@@ -14,7 +14,8 @@ public class Main {
 
         Recipe recipe = new Recipe("Салат",10);
         recipe.addIngredients("Слива",64);
-        recipe.addIngredients("Банана",10);
+        recipe.addIngredients("Слива",10);
+        recipe.addIngredients("Банана",55);
         recipe.addIngredients("Яблоко",64);
         recipe.printAllIngredients();
 
