@@ -3,18 +3,23 @@ package lesson15;
 import java.util.HashMap;
 
 public class HomeWorkMein {
-    public static void main(String[] args) {
-        FootballTable footballTable = new FootballTable();
+//    public static void main(String[] args) {
+//        FootballTable footballTable = new FootballTable("Чемпионат верхних слязней");
+//        FootballTeam team1 = new FootballTeam("Доярочка");
+//        FootballTeam team2 = new FootballTeam("Трактористы");
+//        FootballTeam team3 = new FootballTeam("Пастухи");
+//
+//        footballTable.addTeam(team1,5);
+//        footballTable.addTeam(team2,5);
+//        footballTable.addTeam(team3,5);
+//        footballTable.addPointsToTeam(team1);
+//
+//        footballTable.printToTable();
+//        footballTable.sortTable();
+//
+//
+//
+//
+//    }
 
-        footballTable.addTeam("Реал",10);
-        footballTable.addTeam("Цска",6);
-        footballTable.addTeam("Арсенал",7);
-        footballTable.addTeam("Ювентус",9);
-        footballTable.addPointToTeam("Реал",3);
-        footballTable.addPointToTeam("Цска",1);
-        footballTable.addPointToTeam("Спартак",1);
-
-        footballTable.printAllTeam();
-
-    }
 }

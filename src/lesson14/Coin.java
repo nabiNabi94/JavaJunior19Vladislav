@@ -2,7 +2,7 @@ package lesson14;
 
 import java.util.Objects;
 
-public class Coin {
+public class Coin implements Comparable<Coin> {
     private double diameter;
     private int year;
     private int nominal;
@@ -16,6 +16,7 @@ public class Coin {
         this.year = year;
         this.nominal = nominal;
     }
+
 
     public double getDiameter() {
         return diameter;
@@ -61,5 +62,16 @@ public class Coin {
     @Override
     public int hashCode() {
         return Objects.hash(getDiameter(), getYear(), getNominal());
+    }
+
+    @Override
+    public int compareTo(Coin o) {
+        if (this.year != o.year){
+            return this.year - o.year;
+        }
+        if (this.nominal != o.nominal){
+            return this.nominal - o.nominal;
+        }
+        return Double.compare(this.diameter, o.diameter);
     }
 }

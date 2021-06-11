@@ -2,6 +2,7 @@ package lesson14;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.TreeSet;
 
 public class Main4 {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class Main4 {
         Coin coin5 = new Coin(2.3,3000,20);
 
       //  HashSet<Coin> coins = new HashSet<>();
-        LinkedHashSet<Coin> coins = new LinkedHashSet<>();
+        TreeSet<Coin> coins = new TreeSet<>();
         coins.add(coin1);
         coins.add(coin2);
         coins.add(coin3);

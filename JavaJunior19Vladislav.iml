@@ -14,7 +14,20 @@
           <root url="jar://C:/log4j-1.2.17.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/log4j-1.2.17-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/jAVA/commons-io-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.ideaLibSources/commons-io-2.4-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
